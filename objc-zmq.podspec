@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Classes/cppzmq/*.hpp', 'Classes/objc-zmq/*.{h,m}', 'Classes/zeromq/*.h'
   s.public_header_files = 'Classes/**/*.{h,hpp}'
-  s.vendored_libraries = 'Library/zeromq-4.0.5/static/libzmq.a'
+  s.vendored_libraries = 'Library/zeromq-4.2.0/static/libzmq.a'
   s.libraries = 'c++'
 end
